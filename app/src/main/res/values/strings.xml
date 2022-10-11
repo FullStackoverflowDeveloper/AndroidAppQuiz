@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">JustQuiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="invalid_name">Please enter Valid firstname</string>
+    <string name="invalid_lastname">Введите фамилию правильно</string>
+    <string name="invalid_firstname">Введите имя правильно</string>
+</resources>

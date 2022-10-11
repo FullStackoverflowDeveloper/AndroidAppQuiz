@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "463013765199",
+    "project_id": "fir-forquiz-6e4d7",
+    "storage_bucket": "fir-forquiz-6e4d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463013765199:android:5c5f5422e23a15e12c0a3a",
+        "android_client_info": {
+          "package_name": "com.example.justquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463013765199-hk0umm4kmvvh629p3dvkjhq769qo7gku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYrhm-AVM7fkgOpLWMLRhv0OKPTiEp6as"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "463013765199-hk0umm4kmvvh629p3dvkjhq769qo7gku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
