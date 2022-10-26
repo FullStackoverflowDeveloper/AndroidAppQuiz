@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#001F6BB8"
-    tools:context=".QuizActivity">
+    tools:context=".Testing.QuizActivity">
     
     <RelativeLayout
         android:layout_width="match_parent"

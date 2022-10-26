@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/circle_back_yellow_100plus.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/ic_baseline_exit_to_app_24.xml" value="0.2365" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/ic_outline_thumbs_up_down_24.xml" value="0.2365" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_back_green10.xml" value="0.1" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_back_green20.xml" value="0.1388888888888889" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_back_light_yellow10.xml" value="0.1425925925925926" />
@@ -14,13 +16,32 @@
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_back_white_stroke10.xml" value="0.13240740740740742" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_back_white_stroke2_10.xml" value="0.11574074074074074" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/drawable/round_blakc_green20.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_drawer.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_list.xml" value="0.18" />
-        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_profile.xml" value="0.1" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_quiz.xml" value="0.33" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_quiz_results.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_register_user.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_tests.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/activity_tests2.xml" value="0.22" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/drawer_header.xml" value="0.21629213483146068" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/drawer_toolbar.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_main.xml" value="0.1" />
-        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_start.xml" value="0.1" />
-        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/model_layout.xml" value="0.1" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_results.xml" value="0.16414141414141414" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_second.xml" value="0.1111111111111111" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_start.xml" value="0.15" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_tests.xml" value="0.22" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_third.xml" value="0.378125" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/fragment_third1.xml" value="0.365625" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/model_layout.xml" value="0.25" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/layout/nav_header.xml" value="0.2373046875" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/menu/drawer_menu.xml" value="0.22" />
+        <entry key="..\:/Programming/Quiz/app/src/main/res/menu/nav_menu.xml" value="0.225" />
       </map>
     </option>
   </component>

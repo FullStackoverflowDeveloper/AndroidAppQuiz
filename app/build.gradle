@@ -33,23 +33,37 @@ android {
 
 dependencies {
 
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-
-    //recyclerview and cardview libraries
+    //declare Recyclerview libraries
     implementation 'com.android.support:recyclerview-v7:28.0.0'
+
+    //declare CardView libraries
     implementation 'com.android.support:cardview-v7:28.0.0'
+
     //design library for FloatingActionButton
     implementation 'com.android.support:design:28.0.0'
 
+    //declare Firebase services
+    implementation 'com.google.firebase:firebase-firestore:24.3.1'
+    implementation 'com.google.firebase:firebase-database:20.0.6'
+    implementation 'com.google.firebase:firebase-database'
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-auth:21.0.5'
+
+    //declare Libraries used to
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'com.google.firebase:firebase-firestore:21.4.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
+
+    //declare Test services
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
-    implementation platform('com.google.firebase:firebase-bom:29.3.1')
-    implementation 'com.google.firebase:firebase-database'
+
+    //declare Auth-help libraries
     implementation 'com.basgeekball:awesome-validation:4.2'
+
+    //declare Lottie illustration
+    implementation 'com.airbnb.android:lottie:5.2.0'
 }

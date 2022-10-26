@@ -12,16 +12,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Authentication.RegisterUser"
+            android:exported="false" />
+        <activity
             android:name=".ListActivity"
             android:exported="false" />
         <activity
-            android:name=".QuizResults"
+            android:name=".Testing.QuizResults"
             android:exported="false" />
         <activity
-            android:name=".QuizActivity"
+            android:name=".Testing.QuizActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Authentication.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

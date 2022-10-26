@@ -10,13 +10,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.justquiz.Authentication.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
@@ -28,15 +27,16 @@ public class ListActivity extends AppCompatActivity {
 
     List<Model> modelList = new ArrayList<>();
     RecyclerView mRecyclerView;
+
     //layout manager for recyclerView
     RecyclerView.LayoutManager layoutManager;
 
     Button mAddBtn;
 
-    //firestore instance
+    //Firebase instance
     FirebaseFirestore db;
 
-    CustomAdapter adapter;
+    FragmentAdapter adapter;
 
     ProgressDialog pd;
 
@@ -45,7 +45,7 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
-        //init firestore
+        //init firebase
         db = FirebaseFirestore.getInstance();
 
         //initialize views
